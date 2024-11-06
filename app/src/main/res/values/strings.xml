@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">component</string>
+    <string name="txt1">plain</string>
+    <string name="capitale">CAPITALE</string>
+    <string name="bold">bold</string>
+    <string name="italic">italic</string>
+    <string name="myHint">Développer des application Androids</string>
+</resources>

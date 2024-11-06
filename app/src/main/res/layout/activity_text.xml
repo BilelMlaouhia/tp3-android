@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".text">
+
+    <TextView
+        android:id="@+id/idcomposant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textFontWeight="@android:integer/config_mediumAnimTime"
+        android:text="@string/txt1"
+        android:textColor="@color/purple_700"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:textSize="50dp"
+        />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        tools:context=".text">
+    <Button
+        android:id="@+id/btnCap"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/capitale"
+        android:textColor="@color/white"
+        android:background="@color/red"
+        android:layout_marginRight="10dp"
+        />
+    <Button
+        android:id="@+id/btnBold"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/bold"
+        android:textColor="@color/white"
+        android:background="@color/red"
+        android:layout_marginRight="10dp"
+        />
+    <Button
+        android:id="@+id/btnItalic"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/italic"
+        android:textColor="@color/white"
+        android:background="@color/red"
+        />
+    </LinearLayout>
+
+</LinearLayout>
