@@ -7,4 +7,8 @@
     <string name="myHint">Développer des application Androids</string>
     <string name="plain">Plain</string>
     <string name="serif">Serif</string>
+    <string name="noir">Noir</string>
+    <string name="rouge">Rouge</string>
+    <string name="jaunne">Jaunne</string>
+    <string name="vert">Vert</string>
 </resources>
