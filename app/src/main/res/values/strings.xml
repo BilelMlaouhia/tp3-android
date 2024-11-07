@@ -11,4 +11,11 @@
     <string name="rouge">Rouge</string>
     <string name="jaunne">Jaunne</string>
     <string name="vert">Vert</string>
+    <string name="choices">Choices</string>
+    <array name="saisons">
+        <item>printemps</item>
+        <item>été</item>
+        <item>automne</item>
+        <item>hiver</item>
+    </array>
 </resources>
