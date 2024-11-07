@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:columnCount="4"
+    android:padding="16dp"
+    android:rowCount="7"
+    tools:context=".checkBox">
+
+    <CheckBox
+        android:id="@+id/p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:text="@string/plain"
+        android:textColor="@color/red" />
+
+    <CheckBox
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:text="@string/bold"
+        android:textColor="@color/red" />
+    <CheckBox
+        android:id="@+id/s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="@string/serif"
+        android:textColor="@color/red" />
+    <CheckBox
+        android:id="@+id/i"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:text="@string/italic"
+        android:textColor="@color/red" />
+
+    <Button
+        android:id="@+id/btnCheckbox"
+        android:layout_row="4"
+        android:layout_column="3"
+        android:text="validate"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ToggleButton
+        android:id="@+id/toggle1"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:textOn="ON"
+        android:textOff="OFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ToggleButton
+        android:id="@+id/toggle2"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:textOn="ALLUME"
+        android:textOff="ETEIND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</GridLayout>

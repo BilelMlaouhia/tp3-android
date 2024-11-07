@@ -5,4 +5,6 @@
     <string name="bold">bold</string>
     <string name="italic">italic</string>
     <string name="myHint">Développer des application Androids</string>
+    <string name="plain">Plain</string>
+    <string name="serif">Serif</string>
 </resources>
